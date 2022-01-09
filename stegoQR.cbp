@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="stegoQR" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/stegoQR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/opencv/build/include" />
+					<Add directory="C:/fftw" />
+				</Compiler>
+				<Linker>
+					<Add directory="C:/opencv/build/x64/vc14/lib" />
+					<Add directory="C:/fftw" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/stegoQR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Detector.cpp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Detector.h" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Embeder.cpp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Embeder.h" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Extractor.cpp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Extractor.h" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Inverse_Wavelet2d.cpp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Inverse_Wavelet2d.h" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/QR_Code" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Wavelet2d.cpp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/Wavelet2d.h" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/build" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/caslte_stego.png" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/castle.png" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/dwt.bmp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/libfftw3.3.dylib" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/main.cpp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/orig.bmp" />
+		<Unit filename="../1 PROJECT WORKINGS/Codes/StegoQR-MAIN/recon.bmp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
